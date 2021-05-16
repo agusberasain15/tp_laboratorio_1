@@ -58,7 +58,7 @@ int main(void)
 			}*/
 			for(i=0; i<T; i++ )
 			{
-				if(stringNumA[i] == "." || stringNumA[i] == ",")
+				if(stringNumA[i] == '.' || stringNumA[i] == ',')
 				{
 					decimalNumeroA = atof(stringNumA);
 					numeroAEs = decimal;
@@ -88,7 +88,7 @@ int main(void)
 			}*/
 			for(i=0; i<T; i++ )
 			{
-				if(stringNumB[i] == "." || stringNumB[i] == "," )
+				if(stringNumB[i] == '.' || stringNumB[i] == ',' )
 				{
 					decimalNumeroB = atof(stringNumB);
 					numeroBEs = decimal;
